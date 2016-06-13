@@ -1,0 +1,13 @@
+<?xml version= "1.0" encoding = "utf-8" ?>
+<resources>
+<string-array name= "status" >
+	<item>Active</item >
+	<item>Inactive</item>
+	</string-array >
+	
+<string-array name= "SystemListContextMenu" >
+    <item>Edit</item>
+    <item>Deactivate</item>
+    <item>Delete</item>
+	</string-array >
+</resources>

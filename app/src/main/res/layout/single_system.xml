@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_item_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/tvSystemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="1dip"
+        android:paddingLeft="8dip"
+        android:paddingBottom="1dip"
+        android:text="KEPA"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15dip"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/tvOutBoxUrl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSystemName"
+        android:textColor="#343434"
+        android:textSize="10dip"
+        android:paddingTop="1dip"
+        android:paddingLeft="8dip"
+        android:paddingBottom="5dip"
+        android:text="http://www.psv.net16.net/dsg/outbox.php" />
+
+
+        <TextView
+            android:id="@+id/tvSystemId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="1dip"
+            android:text="match id" />
+
+
+    <TextView
+        android:id="@+id/tvSystemStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/tvSystemName"
+        android:gravity="right"
+        android:text="Active"
+        android:layout_marginRight="5dip"
+        android:textSize="10dip"
+        android:textColor="#ff05c900"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

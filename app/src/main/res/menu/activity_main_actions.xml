@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_addSystem"
+        android:title="Add System"
+        android:alphabeticShortcut="a"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_clear_log"
+        android:title="Clear log"
+        android:alphabeticShortcut="a"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_set_interval"
+        android:title="Polling Interval"
+        android:alphabeticShortcut="a"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_about"
+        android:title="About"
+        android:alphabeticShortcut="f"
+        android:orderInCategory="4"
+        app:showAsAction="never" />
+</menu>

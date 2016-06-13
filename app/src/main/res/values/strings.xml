@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SMYT</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="system_name">systemy rezerwacyjne</string>
+    <string name="system_website">www.smyt.pl</string>
+
+    <color name="smyt_green">#008C6D</color>
+</resources>
